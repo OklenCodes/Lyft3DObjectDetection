@@ -12,7 +12,6 @@ With LIDAR sensors they are fast, decent range, resolution, works well noturnall
 I could be completely wrong and this could be because of the road being small and narrow so the camera is likely blocked.
 I would like to retry the experiment with Radar, camera and ultrasound sensors
 
-
 Credit to 
 Oscar Beijbom, 2018. and Vladimir Iglovikov 2019. for Lyft Dataset SDK Dev-kit
 Xing Hanlu for animation inspired code - https://xinghanlu.com/
