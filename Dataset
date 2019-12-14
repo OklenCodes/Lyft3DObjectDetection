@@ -1,0 +1,18 @@
+The dataset consists of several scenes, which are 25-45 second clips of image of LiDAR data from a self-driving car.
+
+1. `scene` - Consists of 25-45 seconds of a car's journey in a given environment. Each scence is composed of many samples.
+2. `sample` - A snapshot of a scence at a particular instance in time. Each sample is annoted with the objects present.
+3. `sample_data` - Contains the data collected from a particular sensor on the car.
+4. `sample_annotation` - An annotated instance of an object within our interest.
+5. `instance` - An enumeration of all object instance we observed.
+6. `category` - Taxonomy of object categories (e.g. vehicle, human). 
+7. `attribute` - Property of an instance that can change while the category remains the same.
+8. `visibility` - (currently not used)
+9. `sensor` - A specific sensor type.
+10. `calibrated sensor` - Definition of a particular sensor as calibrated on a particular vehicle.
+11. `ego_pose` - Ego vehicle poses at a particular timestamp.
+12. `log` - Log information from which the data was extracted.
+13. `map` - Map data that is stored as binary semantic masks from a top-down view.
+
+
+Link to Data - https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/data
